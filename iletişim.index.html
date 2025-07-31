@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>İletişim | Ömer Faruk İpekli</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ömer Faruk İpekli</h1>
+            <nav>
+                <a href="index.html">Ana Sayfa</a>
+                <a href="hakkimda.html">Hakkımda</a>
+                <a href="iletisim.html">İletişim</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <h2>İletişim</h2>
+        <p>Aşağıdaki bilgilerden bana ulaşabilirsiniz:</p>
+        <ul class="contact-list">
+            <li><strong>Telefon:</strong> <a href="tel:05531130173">0553 113 01 73</a></li>
+            <li><strong>Yer:</strong> Çayırova, Kocaeli</li>
+        </ul>
+        <form class="contact-form" autocomplete="off">
+            <label for="name">Adınız:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="message">Mesajınız:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit" disabled>Gönder (Demo)</button>
+            <small style="color:#888;">Demo sitedir, form gönderimi aktif değildir.</small>
+        </form>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ömer Faruk İpekli | Coldwell Banker</p>
+        </div>
+    </footer>
+</body>
+</html>
