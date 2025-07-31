@@ -1,0 +1,2 @@
+# farukdepo1
+emlaksitem
